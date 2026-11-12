@@ -1,0 +1,80 @@
+{
+  "users": {
+    "1": {
+      "id": 1,
+      "username": "Salim",
+      "displayName": "القائد Salim",
+      "passwordHash": "df296d8ba60ffd5550bb7df6991cc9ce6e923cf827a63211da62849409d0d42e",
+      "salt": "6494a3847d9d9c8e05864d11a5e37f3f",
+      "role": "owner",
+      "avatarUrl": "/logo.png",
+      "warningsCount": 0,
+      "createdAt": 1794462199616,
+      "updatedAt": 1794462199616
+    }
+  },
+  "channels": {
+    "general_trading": {
+      "id": "general_trading",
+      "name": "📊 ديوانية التداول العامة",
+      "description": "قناة النقاشات العامة وتحليلات الأسواق الفورية والدردشة بين الأعضاء",
+      "isPrivate": false,
+      "isOpenPublic": true,
+      "visibility": "public",
+      "allowedMemberIds": [
+        1
+      ],
+      "memberIds": [
+        1
+      ],
+      "createdAt": 1794462199616,
+      "updatedAt": 1794462199616,
+      "displayMemberCount": 1
+    },
+    "signals_vip": {
+      "id": "signals_vip",
+      "name": "👑 قناة Salim VIP الخاصة",
+      "description": "توصيات التداول الحصرية وإشارات الدخول والخروج الخاصة بالمشتركين",
+      "isPrivate": true,
+      "isOpenPublic": false,
+      "visibility": "visible",
+      "allowedMemberIds": [
+        1
+      ],
+      "memberIds": [
+        1
+      ],
+      "createdAt": 1794462199616,
+      "updatedAt": 1794462199616,
+      "displayMemberCount": 1
+    }
+  },
+  "channelMessages": {},
+  "privateMessages": {},
+  "challenges": {},
+  "trades": {},
+  "appUpdates": {
+    "latest": {
+      "versionCode": 16,
+      "versionName": "1.3.2",
+      "title": "تحديث Salim الرسمي v1.3.2",
+      "description": "إصدار Salim 1.3.2 مستقر ومحدّث مع ربط سحابي كامل بـ Firebase.",
+      "downloadUrl": "",
+      "storageSource": "firebase_storage",
+      "storagePath": "updates/Salim-v1.3.2.apk",
+      "fileName": "Salim-v1.3.2.apk",
+      "fileSize": 28412000,
+      "sha256": "a57242c83822cee194df80bc87c5f07cf44b91ca52999337a6ba5d87cd71bcb6",
+      "isMandatory": false,
+      "isActive": true,
+      "isHidden": false,
+      "distributionStatus": "enabled",
+      "publishedAt": 1794462199616,
+      "publishedBy": "Salim",
+      "createdAt": 1794462199616,
+      "updatedAt": 1794462199616
+    }
+  },
+  "appUpdatesHistory": [],
+  "globalDistributionEnabled": true
+}
